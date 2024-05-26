@@ -129,16 +129,17 @@ nav ul li a:hover {
 }
 
 .about-content p {
-    margin: 20px 0;
+    margin: 20px;
     font-size: 1.1em;
     color: #ddd;
+    text-align: justify;
 }
 
 .profile-image {
-    width: 250px; /* Điều chỉnh kích thước */
+    width: 260px; /* Điều chỉnh kích thước */
     height: auto; /* Đảm bảo tỉ lệ khung hình bảo toàn */
     float:inline-start;
-    margin-right: 20px; /* Tạo khoảng cách giữa hình ảnh và nội dung */
+    margin: 20px; /* Tạo khoảng cách giữa hình ảnh và nội dung */
     border-radius: 10px; /* Bo tròn góc */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
 }
@@ -169,7 +170,8 @@ nav ul li a:hover {
     background: #252525;
     border-radius: 10px;
     padding: 30px;
-    width: 350px;
+    width: 450px;
+    height: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
@@ -222,7 +224,6 @@ nav ul li a:hover {
     transition: opacity 0.3s;
     display: flex;
     justify-content: center;
-    align-items: end;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
@@ -239,7 +240,8 @@ nav ul li a:hover {
 
 .project .overlay p {
     font-size: 1.1em;
-    margin: 0;
+    margin-top: 350px;
+    text-align: justify;
 }
 
 /* Popup Modal */
@@ -262,7 +264,7 @@ nav ul li a:hover {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    max-width: 600px;
+    max-width: 900px;
     border-radius: 10px;
     text-align: left;
 }
@@ -271,15 +273,35 @@ nav ul li a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
     margin-bottom: 15px;
+    text-align: center;
     color: #fff;
 }
 
 .popup-content img {
-    width: 100%;
+    width: 70%;
+    display: block;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin: 15px auto;
     transition: transform 0.3s;
 }
+
+.popup-content iframe {
+    display: block;
+    border-radius: 10px;
+    margin: 15px auto;
+    transition: transform 0.3s;
+}
+
+.project-link a {
+    color: #fff; /* Màu liên kết */
+    text-decoration: none; /* Bỏ gạch chân */
+    transition: color 0.3s; /* Hiệu ứng chuyển đổi màu khi hover */
+}
+
+.project-link a:hover {
+    color: #00bcd4; /* Màu khi hover */
+}
+
 
 .popup-content p {
     font-size: 1.1em;
