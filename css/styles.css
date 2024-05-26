@@ -292,6 +292,14 @@ nav ul li a:hover {
     transition: transform 0.3s;
 }
 
+.popup-content li {
+    margin-bottom: 15px;
+}
+
+.popup-content .project-links {
+    margin-bottom: 15px;
+}
+
 .project-link a {
     color: #fff; /* Màu liên kết */
     text-decoration: none; /* Bỏ gạch chân */
