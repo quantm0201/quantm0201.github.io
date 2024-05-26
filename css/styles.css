@@ -266,7 +266,7 @@ nav ul li a:hover {
     width: 80%;
     max-width: 900px;
     border-radius: 10px;
-    text-align: left;
+    text-align: justify;
 }
 
 .popup-content h2 {
